@@ -11,7 +11,7 @@
         header('Location: restrita.php?nome='.$nome);
     } else {
         //echo "volte para o formulario";
-        header('Location: formulario.php');
+        header('Location: erro.php');      
     }
     
 ?>

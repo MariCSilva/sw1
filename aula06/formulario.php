@@ -7,7 +7,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 <body>
-    <div class="container">
+    <br><br><br>
+    <div class="container p-3 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3">
         <form action="processa.php" method="POST">
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Email</label>

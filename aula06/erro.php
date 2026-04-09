@@ -8,12 +8,13 @@
 </head>
 <body>
     <br><br><br><br><br>
-    <div class="container d-grid gap-2 col-6 mx-auto">
-        <h1 class="display-1 text-center p-3 bg-danger border danger-border-subtle rounded-3">ERRO</h1>
+    <div class="container d-grid gap-2 col-4 mx-auto p-3 text-dark bg-danger border danger-border-subtle rounded-3">
+        <h2 class="text-center">ERRO</h2>
+        <br>
         <p class="h3 text-center">Erro de login</p>        
         <a href="index.html">
-            <div class="container d-grid gap-2 col-6 mx-auto">
-                <button type="button" class="btn btn-primary">voltar </button>
+            <div class="container d-grid gap-2 col-3 mx-auto">
+                <button type="button" class="btn btn-dark">voltar </button>
             </div>
         </a>
     </div>

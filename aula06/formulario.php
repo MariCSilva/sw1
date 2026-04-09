@@ -9,18 +9,19 @@
 <body>
     <br><br><br>
     <div class="container p-3 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3">
+        <h2>Faça login</h2>
         <form action="processa.php" method="POST">
-        <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Email</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email">
-        </div>
-        <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Senha</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" name="senha">
-        </div>
-        <input type="submit" class="btn btn-primary" value="Logar">
-        <!-- <button type="submit" class="btn btn-primary">Logar</button> -->
-    </form>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Senha</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" name="senha">
+            </div>
+            <input type="submit" class="btn btn-primary" value="Logar">
+            <!-- <button type="submit" class="btn btn-primary">Logar</button> -->
+        </form>
     </div>
 </body>
 </html>

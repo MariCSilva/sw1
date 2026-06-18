@@ -55,5 +55,13 @@
     echo"<hr>";
     echo"Resumo da turma: <br> Aprovados: $aprovados <br> Recuperação: $recuperacao <br> Reprovados: $reprovados <br> Média da turma: $media";
 
+    echo"<br>";
+    echo"<hr>";
 
+    if ($media >= 7) {
+        echo "Turma com bom desempenho!";
+    } else {
+        echo "Turma precisa melhorar.";
+    }
+    
 ?>
